@@ -1,0 +1,33 @@
+{
+  "name": "bem-bh",
+  "description": "BEM project",
+  "version": "0.0.0",
+  "author": {
+    "name": "yokselzok",
+    "email": "yokselzok@gmail.com"
+  },
+  "repository": {},
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "enb": "^0.17.2",
+    "enb-bem-techs": "^2.0.1",
+    "enb-borschik": "^2.0.0",
+    "borschik-tech-cleancss": "^2.0.1",
+    "enb-bemxjst": "^2.0.2",
+    "enb-diverse-js": "^0.1.0",
+    "enb-modules": "^0.2.0",
+    "enb-stylus": "^2.0.0",
+    "enb-bh": "^1.0.0",
+    "enb-beautify": "^0.0.3"
+  },
+  "scripts": {
+    "start": "enb server",
+    "postinstall": "npm run deps",
+    "deps": "bower install",
+    "postinstall": "npm run deps"
+  },
+  "private": true
+}

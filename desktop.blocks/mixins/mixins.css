@@ -1,0 +1,7 @@
+$bg-color: teal;
+$text-color: gold;
+
+BODY {
+  background: $bg-color;
+  color: $text-color;
+}

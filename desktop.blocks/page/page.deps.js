@@ -1,0 +1,5 @@
+({
+  mustdDeps: [
+      {block: 'mixins'}
+  ]
+})

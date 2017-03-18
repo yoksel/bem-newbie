@@ -1,0 +1,14 @@
+{
+  "author": "yokselzok",
+  "name": "bem-bh",
+  "email": "yokselzok@gmail.com",
+  "version": "0.0.0",
+  "ignore": [
+    ".enb/tmp",
+    "node_modules",
+    "libs"
+  ],
+  "dependencies": {
+    "bem-components": "v2.3.0"
+  }
+}
