@@ -1,5 +1,7 @@
 node_modules/
 libs/
+.vscode/
+preview/
 
 # bem
 .enb/tmp/
