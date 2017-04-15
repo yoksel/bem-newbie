@@ -1,7 +1,11 @@
-$bg-color: teal;
-$text-color: gold;
+$bp-mobile: 320px;
+$bp-tablet: 660px;
+$bp-tablet-max: 959px;
+$bp-desktop: 960px;
 
-BODY {
-  background: $bg-color;
-  color: $text-color;
-}
+$black: #000;
+$white: #FFF;
+$dark-blue: #283645;
+$pink: #d22856;
+$pink-op-03: color($pink alpha(-70%));
+

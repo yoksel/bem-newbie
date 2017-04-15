@@ -1,5 +1,8 @@
 ({
   mustDeps: [
-      {block: 'mixins'}
+      {block: 'mixins'},
+      {block: 'fonts'},
+      // {block: 'helpers'},
+      {block: 'container'}
   ]
 })

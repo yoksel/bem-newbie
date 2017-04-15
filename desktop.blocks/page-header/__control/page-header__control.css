@@ -1,0 +1,46 @@
+.page-header__control {
+  position: relative;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: #FFF;
+
+  .ua_js_no & {
+    display: none;
+  }
+
+  &:focus,
+  &:active {
+    outline-color: #436488;
+  }
+
+  @media (min-width: $bp-desktop) {
+    display: none;
+  }
+}
+
+.page-header__control-svg {
+  display: block;
+  width: 90px;
+  height: 50px;
+  fill: currentColor;
+}
+
+.page-header__symb_cross {
+  transform: translate(50px, 12px);
+  display: none;
+
+  .page-header__control_menuopen & {
+    display: block;
+  }
+}
+
+.page-header__symb_burger {
+  transform: translate(20px, 13px);
+
+  .page-header__control_menuopen & {
+    display: none;
+  }
+}
+

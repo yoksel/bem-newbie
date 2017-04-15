@@ -1,3 +1,7 @@
 .page {
-  font: 16px/1.4 Tahoma, sans-serif;
+  min-width: 320px;
+  margin: 0;
+  background: $white;
+  color: $black;
+  font: 14px/1.4 "Open Sans", Tahoma, sans-serif;
 }

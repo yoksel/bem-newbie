@@ -1,0 +1,15 @@
+HTML {
+  background-image: url('preview/pink-index-mobile.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  @media (min-width: $bp-tablet) {
+    background-image: url('preview/pink-index-tablet.jpg');
+  }
+  @media (min-width: $bp-desktop) {
+    background-image: url('preview/pink-index-desktop.jpg');
+  }
+}
+
+BODY {
+  opacity: .5;
+}

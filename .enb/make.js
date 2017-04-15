@@ -133,7 +133,8 @@ module.exports = function(config) {
                         check: false
                     },
                     'common.blocks',
-                    'desktop.blocks'
+                    'desktop.blocks',
+                    'data.blocks'
                 ]
             }],
 

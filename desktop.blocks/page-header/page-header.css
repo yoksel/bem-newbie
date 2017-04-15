@@ -1,3 +1,59 @@
 .page-header {
-    background: #283645;
+  position: relative;
+  background: $dark-blue;
+  background-repeat: no-repeat;
+  background-position: center bottom 270px;
+  background-image: url('img/bg-back-mobile@1x.jpg');
+  outline: 1px solid gold;
+
+  @media(min-width: $bp-tablet) {
+    background-image: url('img/bg-back-tablet@1x.jpg');
+    background-position: center bottom;
+  }
+
+  @media(min-width: $bp-desktop) {
+    background-image: url('img/bg-back-desktop@1x.jpg');
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    background: rgba(0,0,0,.3);
+
+    @media(min-width: $bp-tablet) {
+      height: 110px;
+    }
+  }
+}
+
+.page-header__content {
+  position: relative;
+
+  @media (max-width: $bp-tablet-max) {
+    &_menuopen {
+      background: $dark-blue;
+    }
+  }
+
+  @media(min-width: $bp-desktop) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.page-header__panel {
+  position: relative;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media(min-width: $bp-tablet) {
+    height: 110px;
+  }
 }

@@ -1,0 +1,110 @@
+.downloads {
+  flex-basis: 100%;
+  color: #FFF;
+
+  &::before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 395px;
+    max-width: 320px;
+    background: url('img/iphone-hand-mobile@1x.png') no-repeat 0% 100%;
+
+    @media(min-width: $bp-tablet) {
+      content: none;
+    }
+  }
+
+  @media(min-width: $bp-tablet) {
+    padding-top: 90px;
+    padding-bottom: 110px;
+    background-repeat: no-repeat;
+    background-image: url('img/iphone-hand-tablet@1x.png');
+    background-position: 50% 100%;
+  }
+
+  @media(min-width: $bp-desktop) {
+    padding-top: 110px;
+    padding-bottom: 125px;
+    background-image: url('img/iphone-hand-desktop@1x.png');
+    background-position: -30% 100%;
+  }
+}
+
+.downloads__inner {
+  background: $dark-blue;
+
+  @media(min-width: $bp-tablet) {
+    background: none;
+  }
+}
+
+.downloads__slogan {
+  display: none;
+
+  @media (min-width: $bp-tablet) {
+    display: block;
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 300;
+  }
+
+  @media (min-width: $bp-desktop) {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.downloads__content {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 27px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  @media(min-width: $bp-tablet) {
+    width: 300px;
+    margin-left: 20px;
+    padding: 0;
+  }
+
+  @media(min-width: $bp-desktop) {
+    margin-left: 10px;
+  }
+}
+
+.downloads__platforms {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 30px 37px 0;
+
+  @media(min-width: $bp-tablet) {
+    margin: 45px 47px 0;
+  }
+
+  @media (min-width: $bp-desktop) {
+    margin-top: 65px;
+  }
+}
+
+.downloads__text {
+  margin-top: 25px;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 300;
+
+  @media(min-width: $bp-tablet) {
+    margin-top: 37px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+
+  @media (min-width: $bp-desktop) {
+    margin-top: 58px;
+  }
+}

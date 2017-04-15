@@ -1,0 +1,15 @@
+.downloads__btn {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    background: $white;
+    border-color: $white;
+    color: $pink;
+  }
+  &:active {
+    color: $pink-op-03;
+  }
+  @media (min-width: $bp-desktop) {
+    font-size: 21px;
+  }
+}

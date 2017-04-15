@@ -1,20 +1,14 @@
-$bp-mobile: 320px;
-$bp-tablet: 660px;
-$bp-desktop: 960px;
-
 .container {
   margin: 0 auto;
-
-  /* It doesn't work : ( */
-  /*background: $bg-color;*/
-
-  width: $bp-mobile;
+  min-width: $bp-mobile;
+  width: 100%;
+  box-sizing: border-box;
 
   @media(min-width: $bp-tablet) {
-    width: $bp-tablet;
+
   }
 
   @media(min-width: $bp-desktop) {
-    width: $bp-desktop;
+    max-width: $bp-desktop;
   }
 }

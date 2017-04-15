@@ -1,0 +1,17 @@
+.btn {
+  padding: 13px;
+  border: 3px solid;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+
+  @media (min-width: $bp-desktop) {
+    font-size: 21px;
+    padding: 10px;
+  }
+}
+
+.btn_rounded {
+  border-radius: 30px;
+}
+
