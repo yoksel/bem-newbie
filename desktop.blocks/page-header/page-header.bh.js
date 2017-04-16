@@ -26,10 +26,7 @@ module.exports = (bh) => {
           },
           {
             block: 'nav',
-            mix: {
-              block: 'page-header',
-              elem: 'nav'
-            }
+            parent: 'page-header'
           }
         ]
       },
