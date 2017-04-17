@@ -132,6 +132,7 @@ module.exports = function(config) {
                         path: 'libs/bem-components/design/desktop.blocks',
                         check: false
                     },
+                    'templates.blocks',
                     'common.blocks',
                     'desktop.blocks',
                     'data.blocks'

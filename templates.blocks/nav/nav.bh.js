@@ -3,13 +3,14 @@ module.exports = (bh) => {
     const items = ctx.param('items');
     ctx.tag('nav');
     ctx.mix({ block: json.parent, elem: 'nav' });
+
     ctx.content(
       items.map((item) => {
         return bh.utils.extend({
           elem: 'link',
-          mix: { block: json.parent, elem: 'nav-link' }
+          parent: json.parent
         }, item);
       }
-      ));
+    ));
   });
 };
