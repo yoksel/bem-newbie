@@ -1,6 +1,8 @@
 ({
   mustDeps: [
     { block: 'svg' },
-    { block: 'svg-symbol' }
+    { block: 'svg-symbol' },
+    { mod: 'light' },
+    { mod: 'dark' }
   ]
 })

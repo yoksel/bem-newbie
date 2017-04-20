@@ -17,7 +17,8 @@ module.exports = (bh) => {
                 mix: {
                   block: 'page-header',
                   elem: 'logo'
-                }
+                },
+                mods: { 'light': true }
               },
               {
                 elem: 'control'
