@@ -23,6 +23,9 @@
     },
     {
       block: 'page-header'
+    },
+    {
+      block: 'page-footer'
     }
   ]
 });
