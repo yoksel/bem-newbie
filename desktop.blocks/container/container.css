@@ -3,6 +3,7 @@
   min-width: $bp-mobile;
   width: 100%;
   box-sizing: border-box;
+  outline: 1px dashed teal;
 
   @media(min-width: $bp-tablet) {
 

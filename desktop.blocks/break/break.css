@@ -1,0 +1,22 @@
+.break {
+  &_mobile {
+    @media (min-width: $bp-mobile) {
+      display: block;
+    }
+  }
+  &_tablet {
+    @media (min-width: $bp-tablet) {
+      display: block;
+    }
+  }
+  &_tablet-only {
+    @media (min-width: $bp-tablet) and (max-width: $bp-tablet-max)  {
+      display: block;
+    }
+  }
+  &_desktop {
+    @media (min-width: $bp-desktop) {
+      display: block;
+    }
+  }
+}

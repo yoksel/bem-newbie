@@ -1,0 +1,16 @@
+.fullwide-bg {
+  padding-top: 50px;
+  background: $smoke;
+  background-image: url('./img/bg-triangle-white.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 100% 30px;
+
+  @media (min-width: $bp-tablet) {
+    background-size: 100% 50px;
+  }
+
+  @media (min-width: $bp-desktop) {
+    background-size: 100% 65px;
+  }
+}
