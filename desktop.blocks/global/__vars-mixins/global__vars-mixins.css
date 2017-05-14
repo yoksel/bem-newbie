@@ -5,7 +5,10 @@ $bp-desktop: 960px;
 
 $black: #000;
 $white: #FFF;
+$smoke: #F2F2F2;
 $dark-blue: #283645;
+$dark-blue-op-03: color($dark-blue alpha(-70%));
 $pink: #d22856;
 $pink-op-03: color($pink alpha(-70%));
+$green: #3dc644;
 
