@@ -1,6 +1,5 @@
 .research {
   display: none;
-  outline: 2px solid red;
 
   @media (min-width: $bp-tablet) {
     display: block;
