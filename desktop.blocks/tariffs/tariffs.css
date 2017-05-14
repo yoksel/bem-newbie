@@ -1,0 +1,13 @@
+.tariffs {
+  overflow: hidden;
+}
+
+.tariffs__fullwide-bg {
+  padding-bottom: 36px;
+}
+
+.tariffs__slider {
+  @media (min-width: $bp-tablet) {
+    display: none;
+  }
+}
