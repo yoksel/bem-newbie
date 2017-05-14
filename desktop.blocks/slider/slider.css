@@ -1,0 +1,34 @@
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.slider__btn {
+  position: relative;
+  width: 25px;
+  height: 30px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  font-size: 0;
+}
+
+.slider__btn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 6px;
+  height: 6px;
+	background-color: $dark-blue-op-03;
+  border-radius: 50%;
+}
+
+.slider__btn_active::before {
+  background-color: transparent;
+  border: solid 3px $dark-blue;
+}
