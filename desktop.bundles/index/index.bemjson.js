@@ -25,6 +25,9 @@
       block: 'page-header'
     },
     {
+      block: 'page-main'
+    },
+    {
       block: 'page-footer'
     }
   ]
