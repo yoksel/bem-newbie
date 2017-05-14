@@ -1,0 +1,33 @@
+.slogan {
+  margin: auto;
+  padding-top: 45px;
+  padding-bottom: 25px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+  color: $dark-blue;
+
+  @media (min-width: $bp-tablet) {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    font-size: 40px;
+  }
+
+  @media (min-width: $bp-desktop) {
+    padding-top: 65px;
+    font-size: 50px;
+  }
+}
+
+.slogan__line {
+  display: block;
+
+  &:last-child {
+    margin-top: 30px;
+
+    @media (min-width: $bp-tablet) {
+      margin-top: 0;
+    }
+  }
+}
