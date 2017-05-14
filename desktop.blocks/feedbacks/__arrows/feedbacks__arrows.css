@@ -3,11 +3,10 @@
   position: absolute;
   top: 190px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
 
   @media (min-width: $bp-desktop) {
-    display: block;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
