@@ -1,0 +1,28 @@
+.feedbacks__arrows {
+  display: none;
+  position: absolute;
+  top: 190px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: $bp-desktop) {
+    display: block;
+  }
+}
+
+.feedbacks__arrow {
+  width: 40px;
+  height: 90px;
+  background: transparent;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border: 0;
+
+  &_prev {
+    background-image: url('img/icon-review-arrow-left.svg');
+  }
+  &_next {
+    background-image: url('img/icon-review-arrow-right.svg');
+  }
+}

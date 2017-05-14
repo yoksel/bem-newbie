@@ -1,0 +1,22 @@
+.feedbacks {
+  position: relative;
+  padding: 40px 0;
+
+  @media (min-width: $bp-tablet) {
+    padding: 32px 0 12px;
+  }
+
+  @media (min-width: $bp-desktop) {
+    min-height: 380px;
+    padding-top: 188px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    background: url('img/icon-quotes.svg') no-repeat 50% 75px;
+  }
+}
+
+.feedbacks__slider {
+  @media (min-width: $bp-desktop) {
+    display: none;
+  }
+}
