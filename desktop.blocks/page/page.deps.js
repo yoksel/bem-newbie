@@ -1,6 +1,7 @@
 ({
   mustDeps: [
     { block: 'global' },
-    { block: 'container' }
+    { block: 'container' },
+    { block: 'break' }
   ]
 })
